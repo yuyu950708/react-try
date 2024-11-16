@@ -1,0 +1,52 @@
+.imgg img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 0 0 5px;
+}
+
+.img{
+    display: flex;
+}
+
+.imgg h2{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    left: 5px;
+    bottom: 5px;
+    text-shadow:black 0.1em 0.1em 0.2em;
+}
+
+.maincss{
+    display: flex;
+    margin: 0 150px;
+}
+
+.sectionn{
+    position: relative;
+    margin: 15px;
+    display: flex;
+    height: 150px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.price{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.travelTitle{
+    height: 150px;
+    width: 350px;
+    color: black;
+    padding: 20px;
+}
+
+.price h3{
+    color: orange;
+}
