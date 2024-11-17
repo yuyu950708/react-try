@@ -18,6 +18,7 @@
 }
 
 .maincss {
+/* display: flex; */
   display: grid;
   margin: 0 auto;
   width: 80%;
