@@ -17,19 +17,21 @@ export default function Card({
 }: CardType) {
   return (
     <>
-      <div className={style.imgg}>
-        <img src={imgUrl} alt="#" />
-        <h2>{imgTitle}</h2>
-      </div>
-      <div className={style.travelTitle}>
-        <div>
-          <h3>{travelTitle}</h3>
+      <section className={style.sectionn}>
+        <div className={style.imgg}>
+          <img src={imgUrl} alt="#" />
+          <h2>{imgTitle}</h2>
         </div>
-        <div className={style.price}>
-          <h3>{price}</h3>
-          <h4>{qi}</h4>
+        <div className={style.travelTitle}>
+          <div>
+            <h3>{travelTitle}</h3>
+          </div>
+          <div className={style.price}>
+            <h3>{price}</h3>
+            <h4>{qi}</h4>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
