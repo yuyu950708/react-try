@@ -1,20 +1,19 @@
-.nav{
-    display: flex;
-    justify-content: space-around;
-    padding:20px 100px;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
 }
 
-.navDiv{
-    display: flex;
-    gap: 15px;
+.navDiv {
+  display: flex;
+  gap: 15px;
 }
 
-.navTitle{
-    padding: 5px;
-    
+.navTitle {
+  padding: 5px;
 }
 
-.navTitle:hover{
-    color: green;
-    border-bottom: 3px solid green;
+.navTitle:hover {
+  color: green;
+  border-bottom: 3px solid green;
 }
